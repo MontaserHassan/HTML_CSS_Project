@@ -78,6 +78,7 @@ padding-top: 3px;
 .content .left-side .details .topic{
   font-size: 18px;
   font-weight: 500;
+  color: #3e2093;
 }
 .content .left-side .details .text-one,
 .content .left-side .details .text-two{
@@ -93,6 +94,10 @@ padding-top: 3px;
   font-weight: 600;
   color: #3e2093;
   padding-bottom: 20px;
+}
+.right-side p{
+  font-size: 14px;
+  color: #afafb6;
 }
 .right-side .input-box{
   height: 50px;
