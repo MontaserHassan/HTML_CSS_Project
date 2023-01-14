@@ -5,19 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Register</title>
-    <link rel="stylesheet" href="../Register/Register.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Register.css">
   </head>
   <body>
-        <div class="navBar">
-            <a href="../Register/Register.html">Register</a>        
-            <a href="#">Login</a>
-            <a href="../Users/Users.html">Users</a>
-            <a href="#">Contact Us</a>
-            <a href="../Home/mainPage.html">Home</a>
-            <a href="../Home/mainPage.html" style="margin-right: 300px;"><i class="fa fa-fw fa-home"></i></a>
-        </div>
-        <div style="margin-left: 13.5%; margin-top: 40px;">
+    <div class="navBar">
+        <a class="image" style="float: left;" href="#"><img src="../2058328-middle.png" alt=""></a>
+        <a href="./Register.html">Register</a>        
+        <a href="..//final.html">Login</a>
+        <a href="#">Users</a>
+        <a href="../Contact us/contact.html">Contact Us</a>
+        <a href="../Home/mainPage.html">Home</a>
+    </div>
+        <div  class="cont" style="margin-left: 25%; ">
             <form>
                 <div class="container">
                         <h1 style="text-align: center; color: green;">Sign Up</h1>
@@ -32,18 +31,11 @@
                         <input type="text" placeholder="User Name" required>
                         <label><b>Password</b></label>
                         <input type="password" placeholder="Password" required>
-                        <label><b>Gender</b></label><br>
+                        <br>
+                        <div class="clearfix">
+                            <button type="submit" class="buttonRegister">Register</button>
+                        </div>
                 </div>
-                <div class="genderDiv">
-                    <label>Male</label>
-                    <input type="radio" name="Gender" checked>
-                    <label>Female</label>
-                    <input type="radio" name="Gender" id="female">
-                </div>
-                <div>
-                    <button type="submit" class="buttonRegister">Register</button>
-                </div>
-                
             </form>
         </div>
     </body>
