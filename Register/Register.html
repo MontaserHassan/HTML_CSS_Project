@@ -6,35 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Register</title>
     <link rel="stylesheet" href="Register.css">
+    <link rel="Shortcut Icon" href="https://www.drupal.org/files/styles/grid-3-2x/public/project-images/reg_confirm_email_with_button_0.png?itok=I9jeJM35">
   </head>
   <body>
     <div class="navBar">
-        <a class="logo" style="float: left;    " href="../Home/mainPage.html"><img class="logoo" src="../images/smlogo.png" alt=""></a>
+        <a class="logo" style="float: left;" href="../Home/mainPage.html"><img class="logoo" src="../images/smlogo.png" alt=""></a>
         <a class="mont" href="../Register/Register.html">Register</a>        
         <a class="mont"  href="../Login/final.html">Login</a>
         <a class="mont" href="../Users/Users.html">Users</a>
         <a class="mont" href="../Contact us/contact.html">Contact Us</a>
         <a class="mont" href="../Home/mainPage.html">Home</a>
     </div>
-        <div  class="cont" style="margin-left: 25%; ">
+        <div  class="cont">
             <form>
                 <div class="container">
-                        <h1 style="text-align: center; color: green;">Sign Up</h1>
-                        <br>
-                        <label><b>First Name</b></label>
-                        <input type="text" placeholder="First Name" required>
-                        <label><b>Last Name</b></label>
-                        <input type="text" placeholder="Last Name"  required>
-                        <label><b>Email</b></label>
-                        <input type="email" placeholder="Email" required>
-                        <label><b>UserName</b></label>
-                        <input type="text" placeholder="User Name" required>
-                        <label><b>Password</b></label>
-                        <input type="password" placeholder="Password" required>
-                        <br>
-                        <div class="clearfix">
-                            <button type="submit" class="buttonRegister">Register</button>
-                        </div>
+                    <h1 style="text-align: center; color: green;">Sign Up</h1>
+                    <br>
+                    <label><b>First Name</b></label>
+                    <input type="text" placeholder="First Name" required>
+                    <label><b>Last Name</b></label>
+                    <input type="text" placeholder="Last Name"  required>
+                    <label><b>Email</b></label>
+                    <input type="email" placeholder="Email" required>
+                    <label><b>UserName</b></label>
+                    <input type="text" placeholder="User Name" required>
+                    <label><b>Password</b></label>
+                    <input type="password" placeholder="Password" required>
+                    <label><b>Gender</b></label><br>
+                </div>
+                <div class="genderDiv">
+                    <label>Male</label>
+                    <input type="radio" name="Gender" checked>
+                    <label>Female</label>
+                    <input type="radio" name="Gender" id="female">
+                </div>
+                <div class="clearfix">
+                    <button type="submit" class="buttonRegister">Register</button>
                 </div>
             </form>
         </div>
