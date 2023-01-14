@@ -1,3 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    text-decoration: none;
+  }
+
 body {
     margin: 0;
     /* background-color: white; */
@@ -12,22 +20,33 @@ body {
 
 .navBar {
     overflow: auto;
-    background-color: rgba(255, 255, 255, 0);
+    background-color: white;
+    width: 100%;
+    position: fixed;
 }
 
-.navBar a:hover {
-    background-color: yellow;
+.navBar img {
+  padding-left: 27px;
+  padding-top: 3px;
+    width: 94px;
+    height: 59px;
+}
+
+.navBar .mont:hover {
+    background-color: black;
     text-decoration: underline;
-    color: black;
+    color: white;
+    font-weight: bolder;
 }
 
-.navBar a{
+.navBar .mont{
     float: right;
     color: black;
     text-align: center;
     padding: 20px 50px;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 table {

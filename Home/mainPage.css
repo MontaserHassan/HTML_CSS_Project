@@ -22,19 +22,20 @@ body {
 }
 
 .navBar img {
-    width: 20px;
-    height: 20px;
+  padding-left: 27px;
+  padding-top: 3px;
+    width: 94px;
+    height: 59px;
 }
 
-
-.navBar a:hover {
+.navBar .mont:hover {
     background-color: black;
     text-decoration: underline;
     color: white;
     font-weight: bolder;
 }
 
-.navBar a{
+.navBar .mont{
     float: right;
     color: black;
     text-align: center;
