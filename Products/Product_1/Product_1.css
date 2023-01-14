@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    text-decoration: none;
+}
+body {
+    margin: 0;
+    background-color: #8a2eff;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
+.navBar {
+  overflow: auto;
+  background-color: white;
+  width: 90%;
+  margin-left: 55px;
+}
+.navBar img {
+  padding-left: 27px;
+  padding-top: 3px;
+    width: 94px;
+    height: 59px;
+}
+.navBar .mont:hover {
+    background-color: black;
+    text-decoration: underline;
+    color: white;
+    font-weight: bolder;
+}
+.navBar .mont{
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 20px 50px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container{
+    width: 700px;
+    height: 350px;
+    background-color: rgba(230, 176, 106, 0.749);
+    margin:auto;
+    margin-top: 90px;
+
+}
+.container img{
+    float: left;
+    padding-left: 20px;
+    margin-right: 40px;
+    padding-top: 50px;
+    height: 300px;
+    width: 250px;
+}
+
+.container div{
+    padding-top: 60px;
+    color: black;
+}
+
+.container button {
+    background: #c15cff;
+    border-radius: 999px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    padding: 8px 18px;
+    margin-top: 10px;
+    margin-left: 170px;
+    font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji", NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji", EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", sans-serif;
+    width: 30%;
+}
+
+.container button:hover {
+    background: rgba(255, 255, 255, 0.2);
+    color: #c15cff;
+    border: 1px solid #c15cff;
+
+}
