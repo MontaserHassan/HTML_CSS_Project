@@ -44,10 +44,35 @@ body {
     font-weight: bold;
 }
 
+@media (max-width:1100px){
+
+    .navBar .mont {
+      padding: 20px 30px;
+      font-size: 16px;
+    }
+    
+    }
+    
+    
+    @media (max-width:754px){
+      .navBar .mont {
+        display: block;
+        width: 100%;
+        margin: 10px 0;
+        text-align: center;
+      }
+    
+      .navBar {
+        margin-left:30px ;
+      }
+    }
+
 .cont {
     margin-top: 30px;
     margin-left: 23.5%
 }
+
+
 
 form{
     height: 550px; 
@@ -58,6 +83,18 @@ form{
     background-color: white;
     margin-bottom: 20px;
 }
+
+@media (max-width:754px){
+
+    .cont {
+    width: 90%;
+    margin-left: 30px;
+    }
+    
+    form {
+        width: 100%;
+    }
+    }
 
 .container input {
     width: 90%;
@@ -99,35 +136,3 @@ button:hover {
     margin: auto;
 }
 
-@media screen and (min-width: 180px) and (max-width: 280px) {
-    .buttonRegister {
-        width: 25%;
-    }
-    input{
-        width: 25%;
-    }
-    form{
-        width: 35%;
-    }
-}  
-
-@media screen and (min-width: 281px) and (max-width: 600px) {
-    .buttonRegister {
-        width: 50%;
-    }
-     input{
-        width: 50%;
-    }
-    form{
-        width: 35%;
-    }
-}  
-
-@media screen and (min-width: 601) and (max-width: 1000px) {
-    .buttonRegister {
-        width: 100%;
-     }
-    input{
-        width: 100%;
-    }
-}

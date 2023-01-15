@@ -44,6 +44,30 @@ padding-top: 3px;
   font-size: 20px;
   font-weight: bold;
 }
+
+@media (max-width:1100px){
+
+  .navBar .mont {
+    padding: 20px 30px;
+    font-size: 16px;
+  }
+  
+  }
+  
+  
+  @media (max-width:754px){
+    .navBar .mont {
+      display: block;
+      width: 100%;
+      margin: 10px 0;
+      text-align: center;
+    }
+  
+    .navBar {
+      margin-left:30px ;
+    }
+  }
+
 .container{
   width: 75%;
   background: #fff;
@@ -52,6 +76,8 @@ padding-top: 3px;
   margin: auto;
   margin-top: 60px;
 }
+
+
 .container .content{
   display: flex;
   align-items: center;
@@ -158,4 +184,9 @@ padding-top: 3px;
   }
 
 }
+@media (max-width: 754px) {
+  .container{
+    margin-left: 30px;
+  }
 
+}

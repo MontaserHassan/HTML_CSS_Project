@@ -45,6 +45,29 @@ body {
     font-weight: bold;
 }
 
+@media (max-width:1100px){
+
+    .navBar .mont {
+      padding: 20px 30px;
+      font-size: 16px;
+    }
+    
+    }
+    
+    
+    @media (max-width:754px){
+      .navBar .mont {
+        display: block;
+        width: 100%;
+        margin: 10px 0;
+        text-align: center;
+      }
+    
+      .navBar {
+        margin-left:30px ;
+      }
+    }
+
 table {
     border-collapse: collapse;
     border: 3px solid black;

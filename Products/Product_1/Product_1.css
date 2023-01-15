@@ -39,14 +39,44 @@ body {
     font-weight: bold;
 }
 
+@media (max-width:1100px){
+
+.navBar .mont {
+  padding: 20px 30px;
+  font-size: 16px;
+}
+
+}
+
+
+@media (max-width:754px){
+  .navBar .mont {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  .navBar {
+    margin-left:30px ;
+  }
+}
+
 .container{
     width: 700px;
     height: 350px;
     background-color: rgba(230, 176, 106, 0.749);
     margin:auto;
     margin-top: 90px;
+    border-radius: 12px;
+    
 
 }
+
+h3 {
+  padding-right: 5px;
+}
+
 .container img{
     float: left;
     padding-left: 20px;
@@ -82,4 +112,18 @@ body {
     color: #c15cff;
     border: 1px solid #c15cff;
 
+}
+
+
+@media (max-width:754px){
+  .container {
+    width: 90%;
+    height: auto;
+    padding: 15px;
+    margin-bottom: 30px;
+  }
+
+  .container img {
+    float: none;
+  }
 }

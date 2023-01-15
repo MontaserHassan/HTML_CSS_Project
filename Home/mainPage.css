@@ -44,6 +44,33 @@ body {
     font-size: 20px;
     font-weight: bold;
 }
+@media (max-width:1100px){
+
+.navBar .mont {
+  padding: 20px 30px;
+  font-size: 16px;
+}
+
+}
+
+
+@media (max-width:754px){
+  .navBar .mont {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  .navBar {
+    margin-left:30px ;
+  }
+}
+
+
+
+
+
 
 .gif {
     height: 600px;
@@ -53,6 +80,12 @@ body {
     border-radius: 6px;
     margin-bottom: 40px;
 
+}
+
+@media (max-width:754px){
+  .gif {
+    margin-left: 30px;
+  }
 }
 
 .products {
@@ -97,6 +130,22 @@ body {
 
 }
 
+@media (max-width:754px){
+  .products .container .card {
+    display: block;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+
+  }
+  .products .container {
+    padding-bottom: 50px;
+    width: 100%;
+    margin-left: 10px;
+    text-align: center;
+}
+}
+
 .products .container .card .image {
     height: 255px;
     overflow: hidden;
@@ -139,19 +188,7 @@ body {
     font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji", NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji", EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", sans-serif;
 }
 
-.foot {
-    width: 100%;
-    height: 200px;
-    background-color: black;
-    color: orange;
-    margin: auto;
-    text-decoration: underline;
-}
 
-.foot h2 {
-
-    padding: 30px;
-}
 
 /*----------------------------------------------*/
 
@@ -250,7 +287,7 @@ footer .bottom{
     margin-top: 40px;
   }
 }
-@media (max-width:560px){
+@media (max-width:600px){
   footer{
     position: relative;
   }
@@ -261,6 +298,7 @@ footer .bottom{
   footer .content .middle{
     padding-left: 0;    
   }
+
 }
 
 

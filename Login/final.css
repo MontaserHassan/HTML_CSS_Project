@@ -49,6 +49,29 @@ padding-top: 3px;
   font-weight: bold;
 }
 
+@media (max-width:1100px){
+
+  .navBar .mont {
+    padding: 20px 30px;
+    font-size: 16px;
+  }
+  
+  }
+  
+  
+  @media (max-width:754px){
+    .navBar .mont {
+      display: block;
+      width: 100%;
+      margin: 10px 0;
+      text-align: center;
+    }
+  
+    .navBar {
+      margin-left:30px ;
+    }
+  }
+
 form {
     /* border: 3px solid #1a1a1a; */
     border-radius: 10px;
@@ -127,6 +150,16 @@ a {
   border-radius: 10px;
 
 }
+
+@media (max-width:754px){
+
+  .format {
+    width: 90%;
+  }
+  
+  }
+
+
 .container label {
   color: rgba(0, 0, 0, 1);
 }
