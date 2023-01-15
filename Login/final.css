@@ -5,8 +5,6 @@
   font-family: 'Poppins',sans-serif;
   text-decoration: none;
 }
-
-
 body {
   margin: 0;
   background-color: #8a2eff;
@@ -15,30 +13,27 @@ body {
 }
 
 .navBar {
-    overflow: auto;
-    background-color: white;
-    width: 90%;
-    margin-left: 55px;
+  overflow: auto;
+  background-color: white;
+  border-radius: 14px;
+  width: 90%;
+  margin-left: 55px;
 }
-
 .navBar a {
   padding-top: 0px;
 }
-
 .navBar img {
-padding-left: 27px;
-padding-top: 3px;
+  padding-left: 27px;
+  padding-top: 3px;
   width: 94px;
   height: 59px;
 }
-
 .navBar .mont:hover {
   background-color: black;
   text-decoration: underline;
   color: white;
   font-weight: bolder;
 }
-
 .navBar .mont{
   float: right;
   color: black;
@@ -48,36 +43,29 @@ padding-top: 3px;
   font-size: 20px;
   font-weight: bold;
 }
-
 @media (max-width:1100px){
-
   .navBar .mont {
     padding: 20px 30px;
     font-size: 16px;
   }
-  
+}
+@media (max-width:754px){
+  .navBar .mont {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    text-align: center;
   }
-  
-  
-  @media (max-width:754px){
-    .navBar .mont {
-      display: block;
-      width: 100%;
-      margin: 10px 0;
-      text-align: center;
-    }
-  
-    .navBar {
-      margin-left:30px ;
-    }
+  .navBar {
+    margin-left:30px ;
   }
-
-form {
-    /* border: 3px solid #1a1a1a; */
-    border-radius: 10px;
-    margin-top: 100px;
 }
 
+form {
+  /* border: 3px solid #1a1a1a; */
+  border-radius: 10px;
+  margin-top: 100px;
+}
 /* Full-width inputs */
 input[type=text], input[type=password] {
   width: 100%;
@@ -88,7 +76,6 @@ input[type=text], input[type=password] {
   box-sizing: border-box;
   border-radius: 10px;
 }
-
 /* Set a style for all buttons */
 button {
   background-color: #04AA6D;
@@ -100,19 +87,16 @@ button {
   width: 100%;
   border-radius: 8px;
 }
-
 /* Add a hover effect for buttons */
 button:hover {
   opacity: 0.8;
 }
-
 /* Extra style for the cancel button (red) */
 .cancelbtn {
   width: auto;
   padding: 10px 18px;
   background-color: #f44336;
 }
-
 /* Center the avatar image inside this container */
 .imgcontainer {
   text-align: center;
@@ -122,25 +106,20 @@ button:hover {
   color: rgba(0, 0, 0, 1);
   padding-top: 10px;
 }
-
 /* Avatar image */
 img.avatar {
   width: 40%;
   border-radius: 50%;
 }
-
 /* Add padding to containers */
 .container {
   padding: 16px;
 }
-
 /* The "Forgot password" text */
 a {
   float: right;
   padding-top: 16px;
 }
-
-
 .format {
 
   width: 650px;
@@ -150,16 +129,11 @@ a {
   border-radius: 10px;
 
 }
-
 @media (max-width:754px){
-
   .format {
     width: 90%;
-  }
-  
-  }
-
-
+  } 
+}
 .container label {
   color: rgba(0, 0, 0, 1);
 }

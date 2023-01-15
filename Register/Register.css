@@ -5,7 +5,6 @@
     font-family: 'Poppins',sans-serif;
     text-decoration: none;
 }
-
 body {
     margin: 0;
     background-color: #8a2eff;
@@ -16,24 +15,22 @@ body {
 .navBar {
     overflow: hidden;
     background-color: white;
+    border-radius: 14px;
     width: 90%;
     margin-left: 55px;
 }
-
 .navBar img {
   padding-left: 27px;
   padding-top: 3px;
     width: 94px;
     height: 59px;
 }
-
 .navBar .mont:hover {
     background-color: black;
     text-decoration: underline;
     color: white;
     font-weight: bolder;
 }
-
 .navBar .mont{
     float: right;
     color: black;
@@ -43,37 +40,29 @@ body {
     font-size: 20px;
     font-weight: bold;
 }
-
 @media (max-width:1100px){
-
     .navBar .mont {
       padding: 20px 30px;
       font-size: 16px;
-    }
-    
-    }
-    
-    
-    @media (max-width:754px){
-      .navBar .mont {
+    }    
+}
+@media (max-width:754px){
+    .navBar .mont {
         display: block;
         width: 100%;
         margin: 10px 0;
         text-align: center;
-      }
-    
-      .navBar {
-        margin-left:30px ;
-      }
     }
+    .navBar {
+        margin-left:30px ;
+        border-radius: 10px;
+    }
+}
 
 .cont {
     margin-top: 30px;
     margin-left: 23.5%
 }
-
-
-
 form{
     height: 550px; 
     width: 650px; 
@@ -83,19 +72,17 @@ form{
     background-color: white;
     margin-bottom: 20px;
 }
-
 @media (max-width:754px){
 
     .cont {
-    width: 90%;
-    margin-left: 30px;
+        width: 90%;
+        margin-left: 30px;
     }
     
     form {
         width: 100%;
     }
-    }
-
+}
 .container input {
     width: 90%;
     padding: 12px 20px;
@@ -106,17 +93,14 @@ form{
     background-color: rgb(227, 226, 226);
     border-radius: 10px;
 }
-
 .container label {
     margin-left: 20px;
     color: rgba(0, 0, 0, 1);
 }
-
 .genderDiv label{
     margin-left: 50px;
     color: rgba(0, 0, 0, 1);
 }
-
 .buttonRegister{
     background-color: #04AA6D;
     color: white;
@@ -129,10 +113,8 @@ form{
 }
 button:hover {
     opacity: 0.8;
-  }
-
+}
 .container {
     padding: 8px;
     margin: auto;
 }
-

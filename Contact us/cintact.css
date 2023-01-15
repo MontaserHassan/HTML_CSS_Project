@@ -5,8 +5,6 @@
   font-family: 'Poppins',sans-serif;
   text-decoration: none;
 }
-
-
 body {
   margin: 0;
   background-color: #8a2eff;
@@ -17,24 +15,22 @@ body {
 .navBar {
   overflow: hidden;
   background-color: white;
+  border-radius: 14px;
   width: 90%;
   margin-left: 55px;
 }
-
 .navBar img {
-padding-left: 27px;
-padding-top: 3px;
+  padding-left: 27px;
+  padding-top: 3px;
   width: 94px;
   height: 59px;
 }
-
 .navBar .mont:hover {
   background-color: black;
   text-decoration: underline;
   color: white;
   font-weight: bolder;
 }
-
 .navBar .mont{
   float: right;
   color: black;
@@ -44,29 +40,24 @@ padding-top: 3px;
   font-size: 20px;
   font-weight: bold;
 }
-
 @media (max-width:1100px){
-
   .navBar .mont {
     padding: 20px 30px;
     font-size: 16px;
   }
-  
+}
+@media (max-width:754px){
+  .navBar .mont {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    text-align: center;
   }
-  
-  
-  @media (max-width:754px){
-    .navBar .mont {
-      display: block;
-      width: 100%;
-      margin: 10px 0;
-      text-align: center;
-    }
-  
-    .navBar {
-      margin-left:30px ;
-    }
+  .navBar {
+    margin-left:30px ;
+    border-radius: 10px;
   }
+}
 
 .container{
   width: 75%;
@@ -76,8 +67,6 @@ padding-top: 3px;
   margin: auto;
   margin-top: 60px;
 }
-
-
 .container .content{
   display: flex;
   align-items: center;
@@ -91,7 +80,6 @@ padding-top: 3px;
   margin-top: 15px;
   position: relative;
 }
-
 .content .left-side .details{
   margin: 14px;
   text-align: center;
@@ -166,16 +154,15 @@ padding-top: 3px;
 .button input[type="button"]:hover{
   background: #5029bc;
 }
-
 @media (max-width: 950px) {
   .container{
     width: 90%;
     padding: 30px 40px 40px 35px ;
   }
   .container .content .right-side{
-   width: 75%;
-   margin-left: 55px;
-}
+    width: 75%;
+    margin-left: 55px;
+  }
 }
 @media (max-width: 820px) {
   .container{
